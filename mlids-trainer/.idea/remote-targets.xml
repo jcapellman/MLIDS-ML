@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Ubuntu" type="wsl" uuid="503efa60-ae2f-44d5-a9ea-5cd6acb100ef">
+        <config>
+          <option name="distributionMsId" value="Ubuntu" />
+          <option name="projectRootOnTarget" value="{exitCode=0, timeout=false, cancelled=false, stdout=/tmp/tmp.B6bKkUS5zl&#10;, stderr=}/mlids-trainer" />
+        </config>
+      </target>
+    </targets>
+  </component>
+</project>
