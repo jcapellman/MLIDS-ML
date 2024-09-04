@@ -4,3 +4,6 @@ Machine Learning Repository relating to the MLIDS project for my dissertation. T
 ## Requirements
 * Python 3.12.x
 * AMD64 (though testing will also be done on ARM64)
+
+## Project Scope
+### LightGBM
