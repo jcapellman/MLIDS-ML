@@ -19,4 +19,4 @@ jobs:
           cache: pip
       - run: pip install memray
       - run: pip install -r mlids-trainer/requirements.txt
-      
+      - run: python -m memray run mlids-trainer/main.py
