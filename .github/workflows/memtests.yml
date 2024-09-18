@@ -1,0 +1,19 @@
+name: MemTests
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, reopened]
+jobs:
+  memtest:
+    name: MemTest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5.2.0
+        with:
+          python-version: 3.12.5
+          
