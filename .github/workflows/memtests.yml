@@ -19,7 +19,7 @@ jobs:
           cache: pip
       - run: pip install memray
       - run: pip install -r mlids-trainer/requirements.txt
-      - run: python -m memray run output=memray_report.bin mlids-trainer/main.py
+      - run: python -m memray run --output=memray_report.bin mlids-trainer/main.py
       - run: python -m memrary stats memray_report.bin --threshold 1MB
         continue-on-error: true
       - if: failure()
