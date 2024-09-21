@@ -6,8 +6,8 @@ Machine Learning Repository relating to the MLIDS project for my dissertation. T
 [![MemTests](https://github.com/jcapellman/MLIDS-ML/actions/workflows/memtests.yml/badge.svg)](https://github.com/jcapellman/MLIDS-ML/actions/workflows/memtests.yml)
 
 ## Requirements
-* Python 3.12.x
-* AMD64 (though testing will also be done on ARM64)
+* Python 3.12.5
+* AMD64 (though additional testing will also be done on ARM64)
 
 ## Project Scope
 ### LightGBM
